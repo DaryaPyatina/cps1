@@ -1,0 +1,100 @@
+body {
+
+    margin: 0;
+    background-color: #F8F8F8;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    display: flex;
+   
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF
+}
+
+.header__left-icons, .header__right-icons{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__repair-icon, .header__checkstatus-icon{
+   margin-right: 16px;
+   margin-top: 24px;
+   margin-bottom: 24px;
+}
+
+.header__Group-icon {
+ margin-left: 16.73px;   
+}
+
+.header__menu-icon {
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.title {
+display: flex;
+height: 40px;
+width: 288px;
+margin: 24px 16px 24px 16px;
+}
+
+.title__wrapper {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.title__wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+} 
+.scroll {
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+
+.scroll__button1_hover:hover  {
+border-color:#B8FFEC;
+
+}
+.text {
+    margin: 24px 16px 16px 16px;
+    width: 288px;
+height: 90px;
+}
+.button {
+display: flex;    
+justify-content: flex-start;
+}
+.button-next {
+width: 100px;
+height: 24px;
+margin: 16px 172px 12.57px 0px;
+padding: 0;
+border: none;
+background: none;
+}
+
+.button_arrow {
+
+    margin: 16px 8px 12.57px 16px;
+}
+
+.photo {
+margin-bottom: 7.62px;
+width: 320px;
+height: 230.8px;
+}
