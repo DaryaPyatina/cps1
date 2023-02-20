@@ -7,46 +7,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
- <header class="header">
-    <div class="header__left-icons">
-<div class="header__menu-icon">
-    <img src="./icons/burger.svg">
-</div>
-<div class="header__Group-icon">
-    <img src="./icons/Group.svg">
-    </div>
-</div>
-<div class="header__right-icons">
-<div class="header__repair-icon">
-<img src="./icons/repair.svg">
-</div>
-<div class="header__checkstatus-icon">
-<img src="./icons/checkstatus.svg">
-</div>
-</div>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left-icons">
+        <div class="header__menu-icon">
+          <img src="./icons/burger.svg" alt="burger" />
+        </div>
+        <div class="header__divider-768">
+          <img src="./icons/divider.svg" alt="divider" />
+        </div>
+        <div class="header__group-icon">
+          <img src="./icons/Group.svg" alt="Group" />
+        </div>
+      </div>
+      <div class="header__center-icons">
+        <div class="header__call-icon">
+          <img src="./icons/call.svg" alt="call" />
+        </div>
+        <div class="header__chat-icon">
+          <img src="./icons/chat.svg" alt="chat" />
+        </div>
+        <div class="header__profile-icon">
+          <img src="./icons/profile.svg" alt="profile" />
+        </div>
+      </div>
+      <div class="header__right-icons">
+        <div class="header__divider">
+          <img src="./icons/divider.svg" alt="divider" />
+        </div>
+        <div class="header__repair-icon">
+          <img src="./icons/repair.svg" alt="repair" />
+        </div>
+        <div class="header__check-status-icon">
+          <img src="./icons/checkstatus.svg" alt="check_status" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="title">
+        <img class="title__divider" src="./icons/highlight.svg" />
+        <h1 class="title__name">Услуги и сервисы</h1>
+      </div>
 
- </header>   
- <main>
- <h1 class="title">Услуги и сервисы</h1>
- <div class="title__wrapper">
-    <ul class="scroll">
-        <li class="scroll__button1"><button class="scroll__button1_hover">Ремонтируемые бренды</button></li>
-        <li class="scroll__button2"><button>Ремонтируемые устройства</button></li>
-        <li class="scroll__button3"><button>Цены на услуги</button></li>
-        <li class="scroll__button4"><button>Адреса сервисных центров</button></li>
-        <li class="scroll__button5"><button>Специальные цены</button></li>
-    </ul>
- </div>
- <div class="text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</div>
- <div class="button">
-    <img class="button_arrow" src="./icons/expand.svg">
- <input class="button-next" type="button" value="Читать далее">
- 
-</div>
- <img class="photo" src="./img/img320.png"/>
- 
-</main>
-</body>
+      <div class="scroll-wrapper">
+        <ul class="scroll">
+          <li class="scroll__item scroll__item_checked"><button>Ремонтируемые бренды</button></li>
+          <li class="scroll__item">
+            <button>Ремонтируемые устройства</button>
+          </li>
+          <li class="scroll__item"><button>Цены на услуги</button></li>
+          <li class="scroll__item"><button>Адреса сервисных центров</button></li>
+          <li class="scroll__item"><button>Специальные цены</button></li>
+        </ul>
+      </div>
+      <div class="wrapper-text">
+        <div class="text">
+          <div class="text__title">
+            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+            можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. Мы
+            успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
+            большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+            рекомендациям и, в свою очередь, советуют нас родным и близким.
+          </div>
+          <div class="read-more-btn">
+            <img class="read-more-btn__arrow" src="./icons/expand.svg" />
+            <button class="read-more-btn__title">Читать далее</button>
+          </div>
+        </div>
+        <img class="photo320" src="./img/img320.png" />
+        <img class="photo768" src="./img/img768.png" />
+        <img class="photo1120" src="./img/img1120.png" />
+      </div>
+    </main>
+  </body>
 </html>
